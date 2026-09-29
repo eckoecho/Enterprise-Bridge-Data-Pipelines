@@ -55,7 +55,7 @@ Publishes SNBI and related bridge information for GIS visualization and reportin
 - Generates GIS layers
 - Supports Portal and dashboard applications
 
-➡️ Project documentation available within this repository.
+➡️ [View Project](./Enterprise-Bridge-Data-Pipeline/BRG_TXDOT_BRIDGES_SNBI_UPDATE/readme.md)
 
 ---
 
