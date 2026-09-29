@@ -1,67 +1,67 @@
-# BRG_TXDOT_BRIDGES_SNBI_UPDATE
+# BRG_DIV_FUA_SNBI_TO_PORTAL
 
 ## Overview
 
-An automated FME workflow responsible for updating bridge inventory and SNBI-related information used by the Statewide Planning Map (SWPM), ensuring transportation planners and stakeholders have access to current infrastructure data.
+An enterprise FME workflow developed to automate the transformation and publication of bridge inspection and SNBI-related datasets to ArcGIS Online, providing stakeholders with current and reliable infrastructure information.
 
 ## Business Problem
 
-The Statewide Planning Map relies on accurate bridge inventory information to support planning, analysis, and decision-making activities. Maintaining current data across thousands of bridge assets requires an efficient and reliable update process.
+Bridge and infrastructure data originated from multiple systems and required extensive manual processing before being shared through web-based GIS applications. Manual updates increased the risk of data inconsistencies, delayed reporting, and reduced confidence in published information.
 
-Users needed a solution to:
+Users needed a repeatable process to:
 
-- Synchronize bridge inventory information with planning applications
-- Eliminate manual update processes
-- Improve data accuracy and consistency
-- Validate records before publication
-- Ensure timely availability of statewide infrastructure data
+- Transform bridge inventory and inspection datasets into a web-ready format
+- Apply business-rule validation and quality-control checks
+- Reduce manual intervention during publication
+- Maintain current information in ArcGIS Online applications
+- Improve consistency across published datasets
 
 ## Solution
 
-Developed an automated FME workflow that extracts bridge inventory data, applies validation and transformation rules, and updates datasets supporting the Statewide Planning Map.
+Developed an automated FME workflow that extracts, transforms, validates, and publishes bridge-related datasets to ArcGIS Online.
 
 The workflow enables users to:
 
-- Process large bridge inventory datasets efficiently
-- Standardize data structures and attributes
-- Validate records against business rules
-- Identify and report data-quality issues
-- Deliver updated GIS datasets to planning applications
-- Support statewide transportation analysis
+- Automate recurring ETL processes
+- Apply standardized data transformations
+- Validate critical attributes before publication
+- Publish updated datasets to web services
+- Generate exception reporting for failed records
+- Support enterprise GIS applications with current data
 
 ## Key Features
 
-- Automated bridge inventory updates
-- SNBI data transformation
-- Statewide GIS data processing
-- Business-rule validation
-- Error and exception reporting
-- Enterprise database integration
-- Scheduled workflow execution
-- Quality-control monitoring
+- Automated geospatial ETL processing
+- ArcGIS Online integration
+- PythonCaller scripting
+- Attribute and schema validation
+- Automated error handling
+- Reusable workflow architecture
+- Enterprise database connectivity
+- Quality-control reporting
 
 ## Technologies
 
 - FME Workbench
 - Python
 - PythonCaller
+- ArcGIS Online
 - SQL
-- ArcGIS
 - Enterprise Geodatabases
-- GIS Automation
-- Data Quality Validation
+- GIS Data Integration
+- Data Validation
 
 ## Skills Demonstrated
 
-- Enterprise GIS Automation
-- Geospatial Data Engineering
-- ETL Pipeline Development
-- Data Validation
-- Spatial Data Management
-- Workflow Optimization
-- Python Integration
-- Infrastructure Asset Management
+- Geospatial ETL Development
+- Workflow Automation
+- Python Scripting
+- GIS Systems Integration
+- Data Quality Assurance
+- Enterprise Data Management
+- Process Optimization
+- Troubleshooting & Debugging
 
 ## Business Impact
 
-Automated the delivery of bridge inventory information to the Statewide Planning Map, reducing manual processing, improving data accuracy, and ensuring planners and decision-makers have access to current statewide infrastructure data for analysis and reporting.
+Reduced manual effort required to prepare and publish bridge data while improving consistency, reliability, and timeliness of information available through web-based GIS applications. The workflow supports repeatable enterprise data delivery and minimizes the risk of publication errors.
