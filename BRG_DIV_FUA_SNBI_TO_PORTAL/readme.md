@@ -48,6 +48,7 @@ Provides the authoritative GIS layer used for:
 
 ## Technologies
 
+- SQL Queries
 - FME Workbench
 - ArcGIS Enterprise
 - ArcGIS Portal
