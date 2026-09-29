@@ -5,7 +5,7 @@
 
 ## Overview
 
-BRG_DIV_FUA_SNBI_TO_PORTAL is an FME workflow that publishes Bridge Division Follow-Up Action (FUA) records from AssetWise to ArcGIS Enterprise and Portal datasets. The process transforms bridge follow-up action data into GIS-ready features that support operational tracking, reporting, and visualization across Bridge Division applications.
+BRG_DIV_FUA_SNBI_TO_PORTAL is an FME workflow that [publishes Bridge Division Follow-Up Action (FUA) records from AssetWise to ArcGIS Enterprise and Portal datasets](Infrastructure-Asset-Management-Compliance-Analytics-Suite/tree/main/Follow%20Up%20Actions). The process transforms bridge follow-up action data into GIS-ready features that support operational tracking, reporting, and visualization across Bridge Division applications.
 
 ## Purpose
 
