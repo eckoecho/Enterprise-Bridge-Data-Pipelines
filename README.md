@@ -42,7 +42,7 @@ Publishes Bridge Division Follow-Up Action (FUA) records from AssetWise to ArcGI
 - Creates GIS-ready features
 - Supports dashboard reporting and mapping
 
-➡️ [View Project](https://github.com/eckoecho/Infrastructure-Asset-Management-ytics-Suite/tree/main/Follow%20Up%20Actions
+➡️ [View Project](https://github.com/eckoecho/Infrastructure-Asset-Management-ytics-Suite/tree/main/Follow%20Up%20Actions/readme.md)
 
 ---
 
