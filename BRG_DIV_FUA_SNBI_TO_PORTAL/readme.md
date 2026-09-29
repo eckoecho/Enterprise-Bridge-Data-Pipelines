@@ -1,67 +1,65 @@
+<img width="1482" height="587" alt="image" src="https://github.com/user-attachments/assets/b1e71e1f-2c29-4329-93af-0f14bde2bdd3" />
+
+
 # BRG DIV FUA SNBI TO PORTAL
 
 ## Overview
 
-An enterprise FME workflow developed to automate the transformation and publication of bridge inspection and SNBI-related datasets to ArcGIS Online, providing stakeholders with current and reliable infrastructure information.
+BRG_DIV_FUA_SNBI_TO_PORTAL is an FME workflow that publishes Bridge Division Follow-Up Action (FUA) records from AssetWise to ArcGIS Enterprise and Portal datasets. The process transforms bridge follow-up action data into GIS-ready features that support operational tracking, reporting, and visualization across Bridge Division applications.
 
-## Business Problem
+## Purpose
 
-Bridge and infrastructure data originated from multiple systems and required extensive manual processing before being shared through web-based GIS applications. Manual updates increased the risk of data inconsistencies, delayed reporting, and reduced confidence in published information.
+Publish Follow-Up Action (FUA) records from AssetWise to Bridge Division GIS and Portal datasets.
 
-Users needed a repeatable process to:
+## Key Responsibilities
 
-- Transform bridge inventory and inspection datasets into a web-ready format
-- Apply business-rule validation and quality-control checks
-- Reduce manual intervention during publication
-- Maintain current information in ArcGIS Online applications
-- Improve consistency across published datasets
+- Extract Follow-Up Action records from AssetWise
+- Categorize actions by status and urgency
+- Identify overdue follow-up actions requiring attention
+- Identify approved plans and completed review workflows
+- Join bridge inventory and structure information
+- Generate spatial point features for mapping
+- Project geometry into the required ArcGIS coordinate system
+- Standardize and format output attributes for enterprise GIS consumption
+- Publish authoritative GIS datasets for downstream applications
 
-## Solution
+## Processing Workflow
 
-Developed an automated FME workflow that extracts, transforms, validates, and publishes bridge-related datasets to ArcGIS Online.
+1. Read Follow-Up Action (FUA) records from AssetWise
+2. Categorize FUAs by status and urgency
+3. Identify overdue actions
+4. Identify approved plans
+5. Join bridge inventory information
+6. Create GIS point geometry
+7. Project geometry into the ArcGIS coordinate system
+8. Standardize output attributes
+9. Publish results to Bridge Division GIS and Portal datasets
 
-The workflow enables users to:
+## Business Function
 
-- Automate recurring ETL processes
-- Apply standardized data transformations
-- Validate critical attributes before publication
-- Publish updated datasets to web services
-- Generate exception reporting for failed records
-- Support enterprise GIS applications with current data
+Provides the authoritative GIS layer used for:
 
-## Key Features
-
-- Automated geospatial ETL processing
-- ArcGIS Online integration
-- PythonCaller scripting
-- Attribute and schema validation
-- Automated error handling
-- Reusable workflow architecture
-- Enterprise database connectivity
-- Quality-control reporting
+- Follow-Up Action mapping
+- Bridge Division dashboard reporting
+- ArcGIS Portal visualization
+- Operational tracking of bridge inspection recommendations
+- Monitoring overdue corrective actions
+- Enterprise GIS reporting and analysis
 
 ## Technologies
 
 - FME Workbench
-- Python
-- PythonCaller
-- ArcGIS Online
-- SQL
+- ArcGIS Enterprise
+- ArcGIS Portal
+- AssetWise
 - Enterprise Geodatabases
-- GIS Data Integration
-- Data Validation
+- Attribute joins and spatial transformations
+- GIS data publishing workflows
 
-## Skills Demonstrated
+## Outcomes
 
-- Geospatial ETL Development
-- Workflow Automation
-- Python Scripting
-- GIS Systems Integration
-- Data Quality Assurance
-- Enterprise Data Management
-- Process Optimization
-- Troubleshooting & Debugging
-
-## Business Impact
-
-Reduced manual effort required to prepare and publish bridge data while improving consistency, reliability, and timeliness of information available through web-based GIS applications. The workflow supports repeatable enterprise data delivery and minimizes the risk of publication errors.
+- Automated synchronization between AssetWise and GIS systems
+- Consistent reporting of Follow-Up Action status
+- Improved visibility into overdue actions
+- Standardized enterprise GIS datasets
+- Reduced manual data maintenance
